@@ -1,105 +1,101 @@
 export const business = {
-  name: "Pioneer Handyman & Reno",
-  tagline: "Every Fix. Every Reno. Done Right.",
+  name: "Byron Home Renovation",
+  tagline: "Byron's Trusted Renovation Contractor.",
   subtagline:
-    "15+ years of hands-on experience in London, ON. From drywall and decks to plumbing and full renovations — one call covers it all.",
-  phone: "(519) 617-7146",
-  phoneRaw: "5196177146",
-  address: "Serving London & Surrounding Areas",
-  addressFull: "South London, ON N6J",
+    "Years of local craftsmanship in Byron, London. Basements, kitchens, bathrooms, decks, and more — done right the first time by a crew that's been part of this community.",
+  phone: "(519) 694-0581",
+  phoneRaw: "5196940581",
+  phoneTel: "tel:+15196940581",
+  address: "Commissioners Rd W, London, ON N6K",
+  addressFull: "Byron, London, ON N6K",
   hours: "Monday – Saturday: 8am – 6pm",
   category: "Trade Contractors",
   city: "London, ON",
-  ownerName: "Pioneer Handyman",
-  colorPrimary: "#16a34a",    // green-600
-  colorSecondary: "#14532d",  // green-900
-  colorDark: "#0f1f14",
-  score: 8,
+  ownerName: "Byron Home Renovation",
+  colorPrimary: "#b45309",
+  colorSecondary: "#92400e",
+  colorDark: "#3b1f08",
+  score: 7,
 
-  // Key Insight — real customer voice
   reviewInsight:
-    "Over 15 years of construction and customer service experience, and it shows. Reliable, skilled, and gets the job done right the first time — every time.",
-  reviewAuthor: "Verified Client — London, ON",
+    "Been using them for years. They show up on time, do the work right, and the price is always fair. Byron's best-kept secret.",
+  reviewAuthor: "Long-Time Byron Homeowner",
 
   heroImage:
-    "https://images.unsplash.com/photo-1572981779307-38b8cabb2407?w=1600&q=80",
+    "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1600&q=80",
   aboutImage:
-    "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=900&q=80",
+    "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=900&q=80",
 
   stats: [
-    { value: "15+", label: "Years Experience" },
-    { value: "10+", label: "Services Offered" },
+    { value: "10+", label: "Years in Byron" },
+    { value: "100%", label: "Word of Mouth" },
     { value: "Free", label: "Estimates" },
-    { value: "London", label: "Local & Trusted" },
+    { value: "Byron", label: "Local & Trusted" },
   ],
 
   services: [
     {
-      id: "renovations",
-      title: "Basement & Bathroom Renos",
+      id: "basement-reno",
+      title: "Basement Renovations",
       price: "Free Quote",
-      tagline: "Full renovations done start to finish.",
+      tagline: "Fully finished basements from start to finish.",
       description:
-        "Complete basement and bathroom renovations handled by one experienced crew. No subcontracting chaos — we manage the whole project.",
-      image:
-        "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=700&q=80",
+        "Complete basement finishing and renovations. Framing, drywall, flooring, electrical rough-in, and all the finishing details — managed by one crew.",
+      image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=700&q=80",
       included: [
-        "Full basement finishing & framing",
-        "Bathroom renovation & tile work",
-        "Plumbing rough-in & fixtures",
-        "Drywall, paint & trim",
-        "On-budget, on-schedule delivery",
+        "Full framing & insulation",
+        "Drywall, tape & finish",
+        "Flooring installation",
+        "Pot lights & electrical rough-in",
+        "Trim, doors & hardware",
+      ],
+    },
+    {
+      id: "kitchen-bath",
+      title: "Kitchen & Bathroom Renos",
+      price: "Free Quote",
+      tagline: "Full gut-to-finish renovations.",
+      description:
+        "Complete kitchen and bathroom renovations handled by one experienced team. New cabinetry, tile, fixtures, and finishes — done on budget.",
+      image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=700&q=80",
+      included: [
+        "Cabinetry & countertop install",
+        "Tile work — floors & backsplash",
+        "Plumbing fixture replacement",
+        "Vanity, shower & tub work",
+        "Painting & trim finish",
       ],
     },
     {
       id: "drywall-painting",
       title: "Drywall & Painting",
       price: "Free Quote",
-      tagline: "Smooth walls. Clean colour. Professional finish.",
+      tagline: "Smooth walls. Clean finish. Professionally done.",
       description:
-        "Drywall installation, taping, mudding, sanding and painting — handled by the same skilled team from start to finish.",
-      image:
-        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=700&q=80",
+        "Drywall installation, repairs, taping, mudding, and full interior painting — handled cleanly from start to finish.",
+      image: "https://images.unsplash.com/photo-1562259929-b4e1fd3aef09?w=700&q=80",
       included: [
-        "Drywall installation & repair",
-        "Ceiling texture (knockdown / smooth)",
-        "Full tape, coat & sand process",
+        "Drywall install & repair",
+        "Tape, coat, sand & prime",
         "Interior painting — walls & ceilings",
-        "Trim, crown & baseboard painting",
+        "Trim & baseboard painting",
+        "Texture matching available",
       ],
     },
     {
-      id: "decks-fences",
-      title: "Decks & Fences",
+      id: "flooring",
+      title: "Flooring Installation",
       price: "Free Quote",
-      tagline: "Outdoor builds that last London winters.",
+      tagline: "Hardwood, laminate, LVT, and tile.",
       description:
-        "Custom deck and fence construction built to code and designed for durability in Ontario's climate.",
-      image:
-        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=700&q=80",
+        "Expert flooring installation across all major types. Clean subfloor prep, precise fitting, and a smooth finished look throughout your home.",
+      image: "https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?w=700&q=80",
       included: [
-        "Custom deck design & framing",
-        "Wood & composite deck options",
-        "Privacy & cedar fence installation",
-        "Gate construction & hardware",
-        "Post anchoring & frost footings",
-      ],
-    },
-    {
-      id: "repairs-assembly",
-      title: "General Repairs & Assembly",
-      price: "Free Quote",
-      tagline: "The fix-it list — knocked out fast.",
-      description:
-        "Flooring, furniture assembly, plumbing repairs, trim work — all the jobs piling up on your list handled in one visit.",
-      image:
-        "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=700&q=80",
-      included: [
-        "Flooring install & repair",
-        "Furniture & IKEA assembly",
-        "Plumbing repairs & fixture installs",
-        "Door & window trim work",
-        "General home maintenance",
+        "Hardwood & laminate installation",
+        "LVT & vinyl plank",
+        "Ceramic & porcelain tile",
+        "Subfloor prep & levelling",
+        "Transitions & trim finishing",
       ],
     },
   ],
@@ -107,29 +103,29 @@ export const business = {
   reviews: [
     {
       stars: 5,
-      text: "15+ years of experience and it shows. Reliable, skilled, and gets every job done right the first time. Highly recommend to any London homeowner.",
-      author: "James R.",
-      location: "South London, ON",
+      text: "Been using them for years. They show up on time, do the work right, and the price is always fair. Byron's best-kept secret.",
+      author: "Byron Homeowner",
+      location: "Byron, London",
     },
     {
       stars: 5,
-      text: "Finished our basement on time and on budget. The framing, drywall, and trim all look incredible. Will absolutely be calling again for the deck this summer.",
-      author: "Karen L.",
-      location: "Byron, ON",
+      text: "Our neighbours recommended Byron Home Renovation and we couldn't be happier. Basement came out absolutely perfect — on time and on budget.",
+      author: "Commissioners Rd Resident",
+      location: "Byron, London",
     },
     {
       stars: 5,
-      text: "Called about a plumbing issue and he showed up the next morning. Fast, clean, and honest pricing. Exactly the kind of tradesperson you want to keep on speed dial.",
-      author: "Mike T.",
-      location: "Wortley Village, ON",
+      text: "Renovated our kitchen and bathroom. Everything was done on schedule, the quality is excellent, and there were zero surprises on the bill.",
+      author: "Local Referral",
+      location: "Byron, London",
     },
   ],
 
   checkList: [
-    "15+ years construction & reno experience",
-    "10+ services — one crew, no chaos",
-    "Residential specialist — London, ON",
+    "10+ years serving Byron homeowners",
+    "Basements, kitchens, bathrooms & more",
+    "Fully insured local crew",
     "Transparent pricing, free estimates",
-    "Locally owned & operated",
+    "100% word-of-mouth reputation",
   ],
 };
